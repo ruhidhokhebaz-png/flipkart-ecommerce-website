@@ -17,8 +17,30 @@
         .slider-container { display: flex; overflow-x: scroll; snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; }
         .slider-container::-webkit-scrollbar { display: none; }
         .slider-item { min-width: 100%; snap-align: start; display: flex; justify-content: center; background: white; }
-      .product-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 10px; }
-.product-card { background: white; border-radius: 8px; padding: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: flex; flex-col; justify-content: space-between; }
+      .product-grid { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 8px; 
+    padding: 8px; 
+}
+
+.product-card { 
+    background: white; 
+    border-radius: 8px; 
+    padding: 10px; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+    display: flex; 
+    flex-direction: column; /* यहाँ सुधार किया गया है */
+    justify-content: space-between; 
+    height: 100%; /* ताकि दोनों बॉक्स की लम्बाई एक जैसी रहे */
+}
+
+.product-card img {
+    height: 120px; /* फोटो की फिक्स्ड ऊंचाई */
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: 8px;
+}
     </style>
 </head>
 <body>
@@ -261,17 +283,21 @@
 
         function loadHome() {
     const list = document.getElementById('v-list');
-    list.className = "product-grid"; // Grid class yahan lagayi
+    list.className = "product-grid"; 
     list.innerHTML = products.map(p => `
         <div class="product-card" onclick="openProduct(${p.id})">
-            <img src="${p.images[0]}" class="w-full h-32 object-contain mb-2">
-            <div>
-                <p class="text-[11px] font-medium line-clamp-2 text-gray-800 mb-1">${p.name}</p>
-                <div class="flex items-center gap-1">
-                    <span class="text-sm font-bold">₹${p.price.toLocaleString()}</span>
-                    <span class="text-gray-400 line-through text-[9px]">₹${p.mrp}</span>
+            <img src="${p.images[0]}">
+            <div class="flex flex-col flex-grow justify-between">
+                <p class="text-[11px] font-medium line-clamp-2 text-gray-800 mb-1" style="min-height: 32px;">
+                    ${p.name}
+                </p>
+                <div>
+                    <div class="flex items-center gap-1">
+                        <span class="text-sm font-bold">₹${p.price.toLocaleString()}</span>
+                        <span class="text-gray-400 line-through text-[9px]">₹${p.mrp}</span>
+                    </div>
+                    <p class="text-green-600 text-[9px] font-bold">Free Delivery</p>
                 </div>
-                <p class="text-green-600 text-[9px] font-bold">Free Delivery</p>
             </div>
         </div>
     `).join('');
